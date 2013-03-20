@@ -24,4 +24,8 @@ when 'mongo_mapper'
 
 end
 
+if rails_version > "4"
+  gem 'protected_attributes'
+end
+
 gemspec
